@@ -19,3 +19,6 @@ pnpm i
 # Execute a aplicação
 pnpm run dev
 ```
+
+## Desafios futuros
+Implementar imagens e indicator
