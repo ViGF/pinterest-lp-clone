@@ -1,7 +1,7 @@
 # Clone Pinterest Landing Page
 Clone da Landing Page do Pinterest com Next 13 e SASS
 
-![cover](client/public/images/home.png)
+![cover](/public/images/home.png)
 
 ## ✨ Tecnologias
 ### Front-end
