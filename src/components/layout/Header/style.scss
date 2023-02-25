@@ -1,0 +1,82 @@
+@import "../../../styles/variables";
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-inline: 2rem;
+    font-size: 6rem;
+    
+    a {
+        all: unset;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+
+        h1 {
+            color: $red-title;
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: -1px;
+        }
+    }
+
+
+    nav {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 1.6rem;
+
+        ul {
+            display: flex;
+
+            li {
+                display: flex;    
+                padding: 0 1.6rem;
+
+                a {
+                    text-decoration: none;
+                    font-size: 1.6rem;
+                    color: $black;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .buttons {
+            display: flex;
+            margin-left: 2.4rem;
+        }
+
+        button {
+            font-size: 1.6rem;
+            font-weight: 600;
+            padding: 1.1rem 1.2rem;
+            border-radius: 2.4rem;
+            border: none;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login {
+            color: $white;
+            background: $red;
+            cursor: pointer;
+        }
+
+        .signup {
+            margin-left: 1.6rem;
+            background: $gray-light;
+            cursor: pointer;
+        }
+    }
+}
+

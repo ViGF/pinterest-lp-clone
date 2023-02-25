@@ -1,0 +1,66 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  padding-inline: 2rem;
+  font-size: 6rem;
+}
+header a {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+header a h1 {
+  color: #cc0000;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  display: flex;
+  padding: 0 1.6rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #111;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+header nav .buttons {
+  display: flex;
+  margin-left: 2.4rem;
+}
+header nav button {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1.1rem 1.2rem;
+  border-radius: 2.4rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .login {
+  color: #fff;
+  background: #e60023;
+  cursor: pointer;
+}
+header nav .signup {
+  margin-left: 1.6rem;
+  background: #efefef;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

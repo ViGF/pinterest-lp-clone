@@ -1,0 +1,43 @@
+@import '../../styles/variables.scss';
+
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: 1s;
+}
+
+@for $i from 0 through 3 {
+    .column:nth-child(#{$i + 1}) {
+        margin-top: $i * 16rem;
+        transition-delay: $columns-transition-delay * $i;
+    }
+
+    @if $i + 1 == 3 {
+        .column:nth-child(3) {
+            margin-top: 24rem;
+            transition-delay: $columns-transition-delay * $i;
+        }
+    }
+}
+
+.column:nth-child(4) {
+    margin-top: 40rem;
+    transition-delay: $columns-transition-delay * 4;
+}
+
+@for $i from 0 through -2 {
+    .column:nth-child(#{$i + 7}) {
+        margin-top: -$i * 16rem;
+        transition-delay: $columns-transition-delay * ($i + 7);
+    }
+
+    @if $i + 7 == 5 {
+        .column:nth-child(5) {
+            margin-top: 24rem;
+            transition-delay: $columns-transition-delay * ($i + 7);
+        }
+    }
+}

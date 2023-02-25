@@ -1,0 +1,12 @@
+@import "../../styles/variables.scss";
+
+.item {
+    width: 23.6rem;
+    height: 35rem;
+    background: $red;
+    border-radius: 1rem;
+}
+
+.item:not(:first-child) {
+    margin-top: 1.6rem;
+}
