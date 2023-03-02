@@ -1,6 +1,10 @@
 import './style.css'
 
-export function Heading() {
+interface HeadingProps {
+    setIndex: (i: number) => void
+}
+
+export function Heading({ setIndex }: HeadingProps) {
     return (
         <div className="heading">
             <span className="text">
@@ -22,19 +26,19 @@ export function Heading() {
                     className="indicator"
                     title='0'
                     type='button'
-                    onClick={() => console.log('a')}
+                    onClick={() => setIndex(0)}
                 />
                 <button
                     className="indicator"
                     title='1'
                     type='button'
-                    onClick={() => console.log('a')}
+                    onClick={() => setIndex(1)}
                 />
                 <button
                     className="indicator"
                     title='2'
                     type='button'
-                    onClick={() => console.log('a')}
+                    onClick={() => setIndex(2)}
                 />
             </div>
         </div>

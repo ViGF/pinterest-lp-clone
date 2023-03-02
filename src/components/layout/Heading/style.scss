@@ -45,10 +45,10 @@
             border-style: none;
             border-radius: 1rem;
             margin: 0.6rem;
+        }
 
-            &:active {
-                background-color: $red;
-            }
+        .active {
+            background-color: $red;
         }
     }
 }

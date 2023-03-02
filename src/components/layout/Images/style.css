@@ -9,9 +9,9 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(7, 25.2rem);
+  max-height: 0;
   visibility: hidden;
   pointer-events: none;
-  max-height: 0px;
 }
 .grid.active {
   max-height: unset;
