@@ -21,4 +21,4 @@ pnpm run dev
 ```
 
 ## Desafios futuros
-Implementar imagens e indicator
+Implementar imagens e corrigir bugs
